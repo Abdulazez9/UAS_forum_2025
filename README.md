@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
@@ -15,7 +14,7 @@
     }
     header {
       text-align: center;
-      padding: 80px 20px;
+      padding: 60px 20px;
       background: url('https://images.unsplash.com/photo-1508612761958-e931d843bddc?auto=format&fit=crop&w=1950&q=80') no-repeat center center/cover;
       color: white;
       position: relative;
@@ -34,76 +33,53 @@
       z-index: 2;
     }
     header h1 {
-      font-size: 3rem;
+      font-size: 2.8rem;
       margin-bottom: 0.5rem;
     }
     header h3 {
       font-weight: 300;
       font-size: 1.3rem;
     }
-
-    /* Make sections full-width and visually balanced */
     section {
-      width: 90%;
-      max-width: 1400px;
+      max-width: 1000px;
       margin: 40px auto;
       background: rgba(255, 255, 255, 0.05);
-      padding: 40px;
+      padding: 30px;
       border-radius: 12px;
-      box-shadow: 0 0 15px rgba(0,0,0,0.3);
+      box-shadow: 0 0 10px rgba(0,0,0,0.3);
     }
-
     h2 {
       color: #4cc9f0;
       border-bottom: 2px solid #4cc9f0;
       padding-bottom: 5px;
-      margin-bottom: 15px;
-      font-size: 1.8rem;
     }
     ul {
       list-style-type: square;
-      padding-left: 25px;
+      padding-left: 20px;
     }
-
     .contact {
       text-align: center;
-      padding: 50px 0;
+      padding: 40px 0;
     }
     .email-btn {
       background: #4cc9f0;
       color: #041029;
-      padding: 14px 28px;
+      padding: 12px 25px;
       border-radius: 8px;
       text-decoration: none;
       font-weight: bold;
       transition: 0.3s;
-      font-size: 1rem;
     }
     .email-btn:hover {
       background: #fff;
       color: #0a1f44;
     }
-
     footer {
       text-align: center;
-      padding: 25px;
+      padding: 20px;
       background: rgba(255,255,255,0.05);
       font-size: 0.9rem;
       color: #bbb;
-    }
-
-    /* Responsive adjustments for mobile */
-    @media (max-width: 768px) {
-      header h1 {
-        font-size: 2.2rem;
-      }
-      header h3 {
-        font-size: 1rem;
-      }
-      section {
-        width: 95%;
-        padding: 25px;
-      }
     }
   </style>
 </head>
@@ -151,9 +127,15 @@
 
   <section>
     <h2>Program Schedule</h2>
-    <p><em>Coming Soon – The detailed program will be updated here. You’ll be able to paste the latest schedule text directly into this section.</em></p>
+    <p><em>Coming Soon – The detailed program will be updated here.</em></p>
   </section>
 
   <div class="contact">
     <a href="mailto:abdulazezjebal@chosun.ac.kr" class="email-btn">Email Us</a>
   </div>
+
+  <footer>
+    <p>© 2025 UAS Laboratory, Chosun University. All rights reserved.</p>
+  </footer>
+</body>
+</html>
