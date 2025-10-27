@@ -126,7 +126,7 @@
 
   <section>
     <h2>Program Schedule</h2>
-    <p><em>Coming Soon – The detailed program will be updated here. You’ll be able to paste the latest schedule text directly into this section.</em></p>
+    <p><em>Coming Soon – The detailed program will be updated here.</em></p>
   </section>
 
   <div class="contact">
